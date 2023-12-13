@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Dhurjati&display=swap');
+
+html,
+body {
+  margin: auto;
+  pad:0;
+ 
+  background-color: #dbcfbf;
+  font-family: "Changa One", sans-serif;
+  width: 75%;
+}
+
+canvas {
+  margin: auto; /* add the margin to center your canvas*/
+  display: block;
+}
+
+h1 {
+  font-size: 64px;
+  color: #c43c1d;
+  text-align: center; /* Some CSS to center the text */
+  font-family: "Changa One", sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  color: #cf6c11; 
+  text-align: center;
+  font-family: "Changa One",
+}
+
+h3 {
+  font-size: 25px;
+  color: #38190a;
+  text-align: center;
+  font-family: 'Dhurjati', sans-serif;
+}
+
+p {
+  font-family: 'Dhurjati', sans-serif;
+   color: #cf6c11; 
+  text-align: center;
+  font-size: 18px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
